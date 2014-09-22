@@ -1,0 +1,143 @@
+#top {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 432px;
+  height: 466px;
+  margin-left: -216px;
+  margin-top: -233px;
+  background-image: url(img/top.png);
+}
+
+div.label {
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  text-align: center;
+}
+
+span.label {
+  text-transform: uppercase;
+  font-size: 16pt;
+  color: #888;
+}
+
+#back {
+  overflow: hidden;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 432px;
+  height: 466px;
+  margin-left: -216px;
+  margin-top: -233px;
+  background-color: #222;
+}
+
+#grad {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: -webkit-radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -o-radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -moz-radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+}
+
+#grad {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: -webkit-radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -o-radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -moz-radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+}
+
+#grad2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: -webkit-radial-gradient(rgba(173, 78, 137, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -o-radial-gradient(rgba(173, 78, 137, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -moz-radial-gradient(rgba(173, 78, 137, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(rgba(173, 78, 137, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: gradefirst;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: gradefirst;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+#grad3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: -webkit-radial-gradient(rgba(245, 95, 104, 0.6) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -o-radial-gradient(rgba(245, 95, 104, 0.6) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -moz-radial-gradient(rgba(245, 95, 104, 0.6) 5%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(rgba(245, 95, 104, 0.6) 5%, rgba(255, 255, 255, 0) 70%);
+    /* Chrome, Safari, Opera */
+    -webkit-animation-name: gradesecond;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: gradesecond;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes gradefirst {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:40px;}
+    50%  {left:200px; top:260px;}
+    75%  {left:50px; top:200px; width: 660px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes gradefirst {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:40px;}
+    50%  {left:200px; top:260px;}
+    75%  {left:50px; top:200px; width: 660px;}
+    100% {left:0px; top:0px;}
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes gradesecond {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:200px; width: 660px;}
+    50%  {left:200px; top:260px;}
+    75%  {left:200px; top:40px;}
+    100% {left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes gradesecond {
+    0%   {left:0px; top:0px;}
+    25%  {left:0px; top:200px; width: 660px;}
+    50%  {left:200px; top:260px;}
+    75%  {left:200px; top:40px;}
+    100% {left:0px; top:0px;}
+}
