@@ -1,7 +1,8 @@
 #top {
+  font-weight: 300;
   position: fixed;
   left: 50%;
-  top: 50%;
+  top: 40%;
   width: 432px;
   height: 466px;
   margin-left: -216px;
@@ -12,14 +13,42 @@
 div.label {
   display: block;
   position: absolute;
-  bottom: -40px;
+  bottom: -20px;
   width: 100%;
   text-align: center;
 }
 
+div.text {
+  display: block;
+  position: absolute;
+  bottom: -140px;
+  left: -50%;
+  width: 200%;
+  text-align: justify;
+  color: #aaa;
+}
+
+div.text a {
+  float: right;
+  color: #993399;
+  text-decoration: none;
+}
+
+div.phone {
+  font-weight: 300;
+  font-size: 26pt;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  bottom: -220px;
+  width: 100%;
+  text-align: center;
+  color: #222;
+}
+
 span.label {
   text-transform: uppercase;
-  font-size: 16pt;
+  font-size: 18pt;
   color: #888;
 }
 
@@ -27,7 +56,7 @@ span.label {
   overflow: hidden;
   position: fixed;
   left: 50%;
-  top: 50%;
+  top: 40%;
   width: 432px;
   height: 466px;
   margin-left: -216px;
