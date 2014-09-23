@@ -3,9 +3,9 @@
   position: fixed;
   left: 50%;
   top: 40%;
-  width: 432px;
+  width: 444px;
   height: 466px;
-  margin-left: -216px;
+  margin-left: -222px;
   margin-top: -260px;
   background-image: url(img/top.png);
 }
@@ -14,39 +14,41 @@ div.label {
   display: block;
   position: absolute;
   bottom: -20px;
-  width: 100%;
+  width: 120%;
+  left: -10%;
   text-align: center;
 }
 
 span.label {
   text-transform: uppercase;
-  font-size: 18pt;
-  color: #555;
+  font-size: 14pt;
+  color: #222;
+  letter-spacing: 5px;
 }
 
 div.text {
+  line-height: 0.5em;
   display: block;
   position: absolute;
-  bottom: -140px;
+  bottom: -120px;
   left: -50%;
   width: 200%;
-  text-align: justify;
-  color: #aaa;
+  text-align: center;
+  color: #888;
 }
 
-div.text a {
-  float: right;
+a {
   color: #993399;
   text-decoration: none;
 }
 
 div.phone {
   font-weight: 300;
-  font-size: 16pt;
+  font-size: 12pt;
   display: block;
   overflow: hidden;
   position: absolute;
-  bottom: -220px;
+  bottom: -160px;
   width: 100%;
   text-align: center;
   color: #888;
@@ -57,9 +59,9 @@ div.phone {
   position: fixed;
   left: 50%;
   top: 40%;
-  width: 432px;
+  width: 444px;
   height: 466px;
-  margin-left: -216px;
+  margin-left: -222px;
   margin-top: -260px;
   background-color: #222;
 }
@@ -88,7 +90,7 @@ div.phone {
     -webkit-animation-name: gradefirst;
     -webkit-animation-duration: 7s;
     -webkit-animation-timing-function: linear;
-    -webkit-animation-delay: 0.2s;
+    -webkit-animation-delay: 0.3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
@@ -96,7 +98,7 @@ div.phone {
     animation-name: gradefirst;
     animation-duration: 7s;
     animation-timing-function: linear;
-    animation-delay: 0.2s;
+    animation-delay: 0.3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-play-state: running;
