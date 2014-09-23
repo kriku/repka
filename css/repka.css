@@ -68,24 +68,24 @@ div.phone {
 
 #grad {
   position: absolute;
-  width: 400px;
-  height: 400px;
-  top: 50px;
-  left: 50px;
-  background: -webkit-radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
-  background: -o-radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
-  background: -moz-radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
-  background: radial-gradient(rgba(97, 63, 102, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  width: 800px;
+  height: 800px;
+  top: -200px;
+  left: -300px;
+  background: -webkit-radial-gradient(rgba(97, 63, 102, 1) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -o-radial-gradient(rgba(97, 63, 102, 1) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -moz-radial-gradient(rgba(97, 63, 102, 1) 5%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(rgba(97, 63, 102, 1) 5%, rgba(255, 255, 255, 0) 70%);
 }
 
 #grad2 {
   position: absolute;
   width: 400px;
   height: 400px;
-  background: -webkit-radial-gradient(rgba(173, 78, 137, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
-  background: -o-radial-gradient(rgba(173, 78, 137, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
-  background: -moz-radial-gradient(rgba(173, 78, 137, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
-  background: radial-gradient(rgba(173, 78, 137, 0.8) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -webkit-radial-gradient(rgba(173, 78, 137, 1) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -o-radial-gradient(rgba(173, 78, 137, 1) 5%, rgba(255, 255, 255, 0) 70%);
+  background: -moz-radial-gradient(rgba(173, 78, 137, 1) 5%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(rgba(173, 78, 137, 1) 5%, rgba(255, 255, 255, 0) 70%);
     /* Chrome, Safari, Opera */
     -webkit-animation-name: gradefirst;
     -webkit-animation-duration: 7s;
