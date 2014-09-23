@@ -19,7 +19,7 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div id="back">
+    <div id="back" style="display: none;">
       <div id="grad"></div>
       <div id="grad2"></div>
       <div id="grad3"></div>
@@ -33,5 +33,18 @@
       </div>
      <div class="phone"><a href="maito:info@repkapro.com">info@repkapro.com</a> + 7 (926) 237 94 24</div>
     </div>
+    <script>
+    var onEvent = function (el, ev, fn) {
+      if (el) {
+        if (el.addEventListener) {
+          el.addEventListener(ev, fn, false);
+        } else {
+          el.attachEvent('on' + ev, fn);
+        }
+      }
+    }
+    var back = document.getElementById('back');
+    onEvent( window, 'load', function () { back.style.display = 'block'; } );
+    </script>
   </body>
 </html>
